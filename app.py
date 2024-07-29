@@ -63,8 +63,8 @@ def videoPre (m):
             st.video(output_video_bytes)      
         
 def main() :
-  st.title('Safety Fall Alert')
-  st.write('Know these situations before too late')
+  st.title('Redrop')
+  st.write('Send your trash.')
   st.image('headpic.png', use_column_width=True)
   with st.sidebar:
     st.title("Option")
