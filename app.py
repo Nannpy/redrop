@@ -6,7 +6,7 @@ import tempfile
 import os
 import os.path as osp
 
-model = YOLO('8n-50ep.pt')
+model = YOLO('best.pt')
 
 def ImgPre(m) :
   image_file = st.file_uploader("Upload An Image", type=['png', 'jpeg', 'jpg'])
