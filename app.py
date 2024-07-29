@@ -6,7 +6,8 @@ import tempfile
 import os
 import os.path as osp
 
-model = YOLO('best.pt')
+# model = YOLO('best.pt')
+model = torch.load('best.pt')
 
 def ImgPre(m) :
   image_file = st.file_uploader("Upload An Image", type=['png', 'jpeg', 'jpg'])
