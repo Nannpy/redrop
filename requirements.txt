@@ -5,3 +5,5 @@ Pillow
 streamlit
 temp
 torch
+cv2
+cv
